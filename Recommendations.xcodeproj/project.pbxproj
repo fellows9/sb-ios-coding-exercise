@@ -16,6 +16,7 @@
 		7A87BB3D244F5C38008A8669 /* RecommendationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A87BB3B244F5C38008A8669 /* RecommendationTableViewCell.xib */; };
 		7A87BB3F244F69CC008A8669 /* ratings.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A87BB3E244F69CC008A8669 /* ratings.json */; };
 		7A87BB41244F9A19008A8669 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87BB40244F9A19008A8669 /* Stub.swift */; };
+		A99A9DD1246080A500D8E3EC /* RecommendationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99A9DD0246080A500D8E3EC /* RecommendationsService.swift */; };
 		C4925D209D942A35ADF2FD9E /* libPods-Recommendations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4837A2CE5DC84736E4DD6D1B /* libPods-Recommendations.a */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		7A87BB3B244F5C38008A8669 /* RecommendationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendationTableViewCell.xib; sourceTree = "<group>"; };
 		7A87BB3E244F69CC008A8669 /* ratings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ratings.json; sourceTree = "<group>"; };
 		7A87BB40244F9A19008A8669 /* Stub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
+		A99A9DD0246080A500D8E3EC /* RecommendationsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				7A87BB42244F9A1F008A8669 /* Do Not Modify These Files */,
 				7A7852F7244F410900651421 /* RecommendationsViewController.swift */,
+				A99A9DD0246080A500D8E3EC /* RecommendationsService.swift */,
 				7A87BB3A244F5C38008A8669 /* RecommendationTableViewCell.swift */,
 				7A87BB3B244F5C38008A8669 /* RecommendationTableViewCell.xib */,
 				7A7852F9244F410900651421 /* Main.storyboard */,
@@ -210,6 +213,7 @@
 				7A87BB3C244F5C38008A8669 /* RecommendationTableViewCell.swift in Sources */,
 				7A7852F8244F410900651421 /* RecommendationsViewController.swift in Sources */,
 				7A7852F4244F410900651421 /* AppDelegate.swift in Sources */,
+				A99A9DD1246080A500D8E3EC /* RecommendationsService.swift in Sources */,
 				7A87BB41244F9A19008A8669 /* Stub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
